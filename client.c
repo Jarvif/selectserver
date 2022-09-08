@@ -57,7 +57,7 @@ int main(int argc, char *argv[])
 		exit(1);
 	}
 	buf[num-1]='\0';
-	printf("server message: %s\n",buf);
+	printf("recv server message: %s\n",buf);
 	close(sockfd);
 	return 0;
 }
